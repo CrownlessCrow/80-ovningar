@@ -19,4 +19,4 @@ else
     Console.WriteLine($"Du har olämplig kroppstemperatur {temp}");
 }
 
-}  
+}
