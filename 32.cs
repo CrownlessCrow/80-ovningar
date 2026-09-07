@@ -1,0 +1,1 @@
+//Skriv en funktion där talen 2, 4, 6, …, 100 skrivs ut.
