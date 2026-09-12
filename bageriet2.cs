@@ -1,6 +1,5 @@
 List<string> queNumber = [];
 
-while (true)
 
 {
     Console.WriteLine("---Bagerikön---"); 
@@ -21,6 +20,8 @@ else
         counter++;   
         }
     }
+
+    
 
 
 
