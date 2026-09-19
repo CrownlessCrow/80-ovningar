@@ -14,4 +14,4 @@ prices.Reverse();
 Console.Write("Sorted");
 Console.WriteLine(string.Join(",", prices));
 
-List <string> pets = 
+//List <string> pets = 0

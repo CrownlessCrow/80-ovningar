@@ -1,23 +1,28 @@
-//Konstruera en funktion som beräknar och skriver ut svaret för funktionen:
-//f(x) = 3x³ - 5x² + 2x - 20
-//Funktionen ska skriva ut alla värden när x är ett heltal mellan -10 och 10. Dvs x antar värdet -10 och ökar med ett till värdet blir 10.
+//Skriv en funktion som läser in ett pris exkl moms och skriver ut priset inkl 25 % moms. 
+//Inläsningen ska pågå tills 0 anges.
 
 
 
 
-for(int i = -10; i <= 10; i += 1)
+
+
+while(true)
+
+{
+Console.Clear();
+Console.WriteLine("Skriv in pris eller tryck 0 för att avsluta");
+int input  = int.Parse(Console.ReadLine()!);
 
     {
-double summa = Math.Pow(i, 3) - Math.Pow(i, i) + (2 * i) - 20;
-
-Console.WriteLine($"f({i}) = {summa}");
-
-
-
+    if (input == 0)
+        {
+        break;
+        }
+    else
+        {
+        double inklMoms = input * 1.25;
+        Console.WriteLine($"Med inklusive moms blir det {inklMoms}");
+        }
 
     }
-   
-   
-   
-   
-   
+}
